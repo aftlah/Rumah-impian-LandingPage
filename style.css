@@ -1,0 +1,530 @@
+:root {
+  --pr-color: #048853;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #e5e5e5;
+  scroll-behavior: smooth;
+}
+
+/* NAVBAR */
+.navbar {
+  z-index: 5;
+}
+
+.nav-color {
+  background-color: #007245;
+  transition: all ease-in-out .5s;
+}
+
+.bg-transparent {
+  transition: all ease-in-out .3s;
+}
+
+* {
+  z-index: 2;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.nav-link {
+  font-size: 16px;
+}
+
+.nav-link.active {
+  font-weight: 700;
+}
+
+.button-primary {
+  width: 133px;
+  height: 40px;
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.button-secondary {
+  width: 133px;
+  height: 40px;
+  background-color: #fff;
+  color: var(--pr-color);
+  border: none;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+/* HERO SECTION */
+#hero {
+  background: linear-gradient(160deg, var(--pr-color), #000);
+  height: 100vh;
+  width: 100%;
+}
+
+.img-hero {
+  height: 100%;
+  z-index: 1;
+}
+
+.hero-tagline h1 {
+  color: #fff;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 72px;
+}
+
+.hero-tagline p {
+  color: #fff;
+  font-size: 16px;
+  margin-bottom: 60px;
+  margin-top: 20px;
+  line-height: 30px;
+  width: 75%;
+}
+
+.button-lg-primary {
+  width: 237px;
+  height: 70px;
+  background-color: #fff;
+  color: var(--pr-color);
+  border: none;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.accsent-img {
+  z-index: 1;
+}
+/* HERO SECTION */
+
+/* LAYANAN SECTION */
+#layanan {
+  padding: 100px 0;
+}
+h2 {
+  font-size: 48px;
+  font-weight: 500;
+  color: var(--pr-color);
+}
+
+.sub-title {
+  font-size: 18px;
+  color: #000;
+}
+
+.card-layanan {
+  width: 100%;
+  height: 313px;
+  border-radius: 5px;
+  padding: 40px;
+  box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.05);
+  background-color: white;
+  transition: all 0.4s ease-in;
+}
+
+.card-layanan .circle-icon {
+  width: 70px;
+  height: 70px;
+  background-color: var(--pr-color);
+  border-radius: 50%;
+  transition: all 0.2s ease-in;
+}
+
+.circle-icon img {
+  width: 57px;
+  height: 57px;
+}
+.card-layanan h3 {
+  color: var(--pr-color);
+  font-size: 24px;
+  transition: all 0.3s ease-in;
+}
+
+.card-layanan p {
+  font-size: 14px;
+  color: #000;
+  transition: all 0.3s ease-in;
+  width: 86%;
+}
+
+/* HOVER */
+.card-layanan:hover {
+  width: 100%;
+  height: 313px;
+  border-radius: 5px;
+  padding: 40px;
+  box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.05);
+  background: linear-gradient(160deg, var(--pr-color), #2d2c2c);
+  transition: all 0.4s ease-in;
+}
+
+.card-layanan:hover .circle-icon {
+  width: 70px;
+  height: 70px;
+  background-color: white;
+  border-radius: 50%;
+  transition: all 0.2s ease-in;
+}
+
+.circle-icon img {
+  width: 57px;
+  height: 57px;
+}
+.card-layanan:hover h3 {
+  color: #fff;
+  transition: all 0.3s ease-in;
+}
+.card-layanan:hover p {
+  color: #fff;
+  transition: all 0.3s ease-in;
+}
+/* LAYANAN SECTION END */
+
+/* SEARCH SECTION */
+#search {
+  background-image: url(assets/img/Img-search.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  padding: 9% 0;
+}
+
+#search h2 {
+  font-size: 48px;
+  font-weight: 600;
+  /* line-height: 72px; */
+  letter-spacing: 0em;
+  color: #fff;
+}
+
+#search p {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  color: #fff;
+  width: 80%;
+}
+
+.input-cari {
+  height: 88px;
+}
+
+.input-cari:focus {
+  border: none;
+}
+
+.input-cari .button-secondary {
+  width: 200px;
+  height: 88px;
+  background-color: rgba(255, 255, 255, alpha.8);
+  color: var(--pr-color);
+  font-size: 18px;
+  font-weight: 400;
+  border: none;
+  border-radius: 0 10px 0 10px;
+}
+
+.input-cari .button-primary {
+  height: 88px;
+  background-color: var(--pr-color);
+  color: #fff;
+  border: none;
+  font-size: 36px;
+  font-weight: 500;
+}
+
+.nav-tabs {
+  border: none;
+}
+
+.nav-tabs .nav-link {
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 9px 0 0 0;
+  color: #000;
+  border: none;
+}
+
+.nav-tabs .nav-link .active {
+  background-color: rgba(255, 255, 255, 0.8);
+  color: var(--pr-color);
+  border-radius: 9px 0 0 0;
+  font-weight: 500;
+}
+
+/* SEARCH SECTION END */
+
+/* REKOMENDASI SECTION */
+#rekomendasi {
+  margin-top: 120px;
+}
+ .card {
+  height: 450px;
+  width: 98%;
+  border: none;
+}
+
+.card:hover {
+  background: linear-gradient(160deg, var(--pr-color), #007245, #007245, #000);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+  transition: all 0.5s ease-in-out;
+}
+
+.card-body h4 {
+  color: #000;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 0.8rem;
+}
+
+.card:hover h4 {
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+
+.card-body p {
+  color: #454545;
+  font-weight: 400;
+  font-size: 14px;
+  
+}
+
+.card:hover .card-body p {
+  color: #fff;
+  transition: all ease-in-out 0.3s;
+}
+
+.card-fasilitas {
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 14px;
+  background-color: #fff;
+}
+
+.card-fasilitas span {
+  font-weight: 500;
+  margin-top: 10px; 
+  color: #000;
+}
+
+.card-fasilitas p {
+  font-size: 12px;
+  color: #000;
+}
+
+.card:hover .card-fasilitas p {
+  color: #000;
+}
+/* REKOMENDASI SECTION END */
+
+/* FITUR SECTION */
+#fitur {
+  margin-top: 120px;
+}
+
+.button-fitur {
+  width: 238px;
+  /* width: 85%; */
+  height: 63px;
+  background-color: var(--pr-color);
+  color: white;
+  border: none;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.button-fitur img {
+  margin: 10px;
+}
+
+#fitur h2 {
+  font-size: 48px;
+  font-weight: 500;
+}
+
+.card-fitur h5 {
+  color: #fff;
+  font-size: 36px;
+  font-weight: 500;
+}
+
+.card-fitur span {
+  font-size: 14px;
+  font-weight: 400;
+  color: white;
+}
+
+.card-fitur h6 {
+  font-size: 24px;
+  color: white;
+  font-weight: 600;
+}
+
+.card-fitur button {
+  background-color: var(--pr-color);
+  color: white;
+  border: none;
+  width: 150px;
+  height: 45px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.card-fitur .overlay {
+  background-color: rgba(0, 0, 0, 0);
+  opacity: 0;
+  transition: all ease-in-out 0.3s;
+}
+
+.card-fitur:hover .overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 1;
+}
+
+.button-left {
+  border: none;
+  border-radius: 50%;
+  width: 61px;
+  height: 61px;
+  background-color: var(--pr-color);
+  left: -25px !important;
+}
+
+.button-left img {
+  margin: -6px 0 0 -12px;
+}
+.button-right {
+  border: none;
+  border-radius: 50%;
+  width: 61px;
+  height: 61px;
+  background-color: var(--pr-color);
+}
+
+.button-right img {
+  margin: -6px 0 0 -10px;
+}
+
+/* CONTACT */
+#contact {
+  background-image: url(assets/img/kontak-img.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 158px;
+}
+
+#contact .overlay {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+#contact .container {
+  padding: 148px 0;
+}
+
+#contact h3 {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 60px;
+  color: #fff;
+  width: 468px;
+}
+
+#contact h6 {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  color: #fff;
+  margin: 19px 0 14px 0;
+}
+
+.contact a {
+  display: inline-block;
+  color: #fff;
+  font-size: 16px;
+  line-height: 18px;
+  text-decoration: none;
+  margin-left: 18px;
+  width: 332px;
+}
+
+.linkRumahImpian {
+  font-size: 16px;
+  color: #fff;line-height: 18px;
+  text-decoration: none;
+}
+
+.card-contact {
+  width: 100%;
+  height: 445px;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 52px 48px;
+}
+
+.card-contact h2 {
+  font-weight: 600;
+  font-size: 40px;
+  height: 60px;
+  color: #00985B;
+  text-align: center;
+  margin-bottom: 21px;
+  line-height: 60px;
+}
+
+.input-cari .form-control{
+  background-color: #C4C4C4;
+  height: 88px !important;
+  border-radius:0 ;
+}
+
+.form-floating label {
+  font-size: 16px;
+  line-height: 18px;
+  color: #717171;
+  
+}
+
+.button-contact {
+  width: 100%;
+  height: 75px;
+  background-color: #00985B;
+  border: none;
+  font-size: 24px;color: #fff;
+  font-weight: 500;
+}
+/* CONTACT END */
+
+/* FOOTER */
+footer{
+width: 100%;
+height: 270px;
+background-color: #000;
+}
+
+.copyright {
+  bottom: 3%;
+  color: #fff;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+footer .rmh {
+  font-size: 20px;
+  line-height: 30px;
+  text-decoration: none;
+  color: #fff;
+}
+
+footer .link a{
+  font-size: 17px;
+  line-height: 30px;
+  text-decoration: none;
+  color: #fff;
+}
